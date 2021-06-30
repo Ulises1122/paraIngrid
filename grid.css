@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    height: 100%;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-columns: 0.5fr 1fr 3fr;
+    grid-template-rows: 1fr 3fr 9fr;
+    grid-template-areas: 
+    "h h h"
+    "c1 c1 c2"
+    "c1 c1 c3";
+}
+.header{
+    grid-area: h;
+}
+.menu1{
+    grid-area: m1;
+}
+.content1{
+    grid-area: c1;
+}
+.content2{
+    grid-area: c2;
+}
+.content3{
+    grid-area: c3;
+}
+.content3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

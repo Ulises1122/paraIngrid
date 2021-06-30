@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ingrid</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header" onclick="autoRepro()">
+            <audio id="audio">
+                <source src="archivos/CloseToYou.mp3" type="audio/mpeg">
+            </audio>
+            Tocame para una sorpresa.
+        </div>
+        <div class="content1">
+            Sos la mujer que quiero ver y amar por el resto de mis días. Me hace increíblemente feliz verte reír. 
+            Sos la dueña de mis suspiros y la razón por la que quiero seguir adelante a diario. Te admiro. Gracias por tu paciencia y tu compasión. 
+            Espero me sigas eligiendo por muchos años más.
+        </div>
+        <div class="content2" id='head1' onclick="changeHead1()" ondblclick="changeHead2()">
+            <p>Te amo. [click]</p>
+        </div>
+        <div class="content3">
+            <img src="archivos/imagen1.jpg">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
